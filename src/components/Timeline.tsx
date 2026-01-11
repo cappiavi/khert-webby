@@ -5,14 +5,12 @@ const education = [
   {
     title: "BS in Computer Science",
     institution: "Cotabato Foundation College of Science and Technology",
-    period: "Current",
     type: "Higher Education",
     icon: GraduationCap,
   },
   {
     title: "Computer System Servicing",
     institution: "President Roxas National Highschool",
-    period: "Completed",
     type: "Secondary Education",
     icon: Award,
   },
@@ -92,14 +90,9 @@ const Timeline = () => {
                   </div>
 
                   {/* Institution */}
-                  <p className="text-muted-foreground mb-2">
+                  <p className="text-muted-foreground">
                     {item.institution}
                   </p>
-
-                  {/* Period */}
-                  <span className="text-sm font-mono text-primary/70">
-                    {item.period}
-                  </span>
                 </motion.div>
               </div>
             </motion.div>
